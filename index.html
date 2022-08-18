@@ -20,11 +20,16 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="flex items-center justify-between container">
+        <div class="lg:hidden">
+          <div class="w-10 h-px bg-black"></div>
+          <div class="w-10 h-px my-1 bg-black"></div>
+          <div class="w-10 h-px my-1 bg-black"></div>
+        </div>
         <div>
           <img src="./paytm.com-images-cjw6rb/0ce2133c.svg" />
         </div>
-        <div>
+        <div class="hidden">
           <ul>
             <li>paytm for consumer</li>
             <li>paytm for business</li>
@@ -33,7 +38,7 @@
             <li>Career</li>
           </ul>
         </div>
-        <div>
+        <div class="px-4 py-2 bg-blue-700 text-white rounded-2xl">
           <button>signIn</button>
         </div>
       </nav>
